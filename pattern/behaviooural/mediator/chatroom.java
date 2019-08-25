@@ -3,7 +3,15 @@ package com.bridgelabz.pattern.behaviooural;
 import java.util.Date;
 
 public class chatroom {
-	public static void showMessage(user user, String message) {
+	public static void showMessage(user user, String message) 
+
+
+
+
+
+
+
+{
 
 		System.out.println(new Date().toString() + " [" + user.getName() + "] : " + message);
 	}
